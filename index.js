@@ -1,22 +1,8 @@
-const express = require('express');
-const { Pool } = require('pg')
-const dotenv = require('dotenv').config();
 
-const PORT = process.env.PORT || 3001;
-const app = express();
+const CLI = require('./lib/cli');
 
-app.use(express.urlencoded({extended: true}));
-app.use(express.json());
+const cli = new CLI();
 
-const pool = new Pool(
-    {
-    user: process.env.USER,
-    password: process.env.PASSWORD,
-    host: 'localhost',
-    database: 'employee_db'
-    },
-    console.log(`Connected to the employee_db database.`)
-);
+cli.run();
 
-await pool.connect();
 
