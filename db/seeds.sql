@@ -28,4 +28,4 @@ VALUES ('John', 'Deere', 1, 2),
        ('Michael', 'Jordan', 4, 8),
        ('Lebron', 'James', 9, NULL),
        ('Larry', 'Bird', 5, 10),
-       ('Magi', 'Johnson', 10, NULL);
+       ('Magic', 'Johnson', 10, NULL);
