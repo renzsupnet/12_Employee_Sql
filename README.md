@@ -20,9 +20,9 @@
 
     The interface will continuously present multiple options of viewing, deleting and updating until a user selects the exit option. Choose an option you desire and suboptions will be availble if necessary. Inputs shall then be processed and be reflected on the database.
 
-  Video Walkthrough
+  ### Video Walkthrough
   
-  [Click Here](https://youtu.be/SvaJV5hOcJA)
+  [Click Here](https://youtu.be/GvMGH85vDrw)
   
   ## Screenshots
 
